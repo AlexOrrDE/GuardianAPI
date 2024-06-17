@@ -2,7 +2,7 @@
 
 Project link: https://github.com/RadGuav/GuardianAPI
 ____
-This application is designed to retrieve relevant articles from the Guardian API based on a given search term and a date (optional), and then publish these articles to a specified message broker. The fetched articles can be utilized by marketing and careers teams for analysis and many other purposes.
+This application is designed to retrieve relevant articles from the Guardian API based on a given search term and a date (optional), and then publish these articles to a specified message broker. The fetched articles can be utilised by marketing and careers teams for analysis and many other purposes.
 
 The code is fully tested, secure, and PEP8 compliant.
 
