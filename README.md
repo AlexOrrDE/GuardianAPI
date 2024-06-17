@@ -1,8 +1,8 @@
 # Guardian API Streaming Project using AWS Kinesis #
 
-Project link: 
+Project link: https://github.com/RadGuav/GuardianAPI
 ____
-This application is designed to retrieve relevant articles from the Guardian API based on a given search term and a date (optional), and then publish these articles to a specified message broker. The fetched articles can be utilized by marketing and careers teams for analysis and many other various purposes.
+This application is designed to retrieve relevant articles from the Guardian API based on a given search term and a date (optional), and then publish these articles to a specified message broker. The fetched articles can be utilized by marketing and careers teams for analysis and many other purposes.
 
 The code is fully tested, secure, and PEP8 compliant.
 
@@ -63,15 +63,15 @@ The published data to the Kinesis stream will have the following JSON format:
 
 To set up the code, simply follow these steps:
 
-- Clone the repository and install dependencies:
+1) Clone the repository and install dependencies:
 
-        git clone LINK
+        git clone https://github.com/RadGuav/GuardianAPI
         cd GuardianAPI
         make requirements
 
-- Get a free key from the [Guardian API](https://open-platform.theguardian.com/).
+2) Get a free key from the [Guardian API](https://open-platform.theguardian.com/).
 
-- Configure AWS Resources:
+3) Configure AWS Resources:
 
     - Create a secret in the Secrets Manager called "guardian_secrets" and assign your Guardian API key as its value.
 
