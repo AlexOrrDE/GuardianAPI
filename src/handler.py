@@ -8,6 +8,8 @@ logger.setLevel(logging.INFO)
 
 
 def lambda_handler(event, context):
+    """Manages the execution of the other functions and error handling"""
+
     logger.info("Received event: %s", event)
 
     try:

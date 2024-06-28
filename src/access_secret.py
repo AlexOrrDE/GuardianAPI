@@ -4,6 +4,8 @@ from botocore.exceptions import ClientError
 
 
 def access_secret():
+    """Fetches secret API key saved in AWS secretsmanager"""
+
     secret_name = "guardian_secrets"
     region = "eu-west-2"
 

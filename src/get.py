@@ -4,6 +4,9 @@ GUARDIAN_API_URL = "https://content.guardianapis.com/search"
 
 
 def fetch_guardian_articles(guardian_api_key, query, date_from):
+    """Contacts the Guardian API and retrieves the ten most recent
+    articles which relate to the query specified in the input"""
+
     params = {
         "q": query,
         "api-key": guardian_api_key,

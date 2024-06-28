@@ -4,6 +4,8 @@ GUARDIAN_API_URL = "https://content.guardianapis.com/search"
 
 
 def mocked_requests_get(*args, **kwargs):
+    """Mock request from Guardian API for use in testing"""
+
     class MockResponse:
         def __init__(self, json_data, status_code):
             self.json_data = json_data
